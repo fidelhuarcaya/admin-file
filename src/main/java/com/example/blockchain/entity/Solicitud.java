@@ -8,8 +8,9 @@ import lombok.Setter;
 @Setter
 @Getter
 @Table
-public class Solicitud {    @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+public class Solicitud {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idSolicitud;
     private Long idTipoTramite;
 }
