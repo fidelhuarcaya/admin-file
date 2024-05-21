@@ -14,7 +14,7 @@ public class DocumentoRequest {
     private String nombre;
     private String hash;
 
-    private Integer estado = 0;
+    private Integer estado = 1;
     private MultipartFile file;
 
 
